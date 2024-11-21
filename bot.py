@@ -12,9 +12,7 @@ import asyncio
 from route import web_server
 import pyromod
 
-logging.config.fileConfig("logging.conf")
-logging.getLogger().setLevel(logging.INFO)
-logging.getLogger("pyrogram").setLevel(logging.ERROR)
+
 
 
 class Bot(Client):
