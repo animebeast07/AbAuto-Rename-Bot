@@ -8,7 +8,8 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "7766709030:AAF2V5suQoAbKfQObKrELeKqrHpjareNl64") 
 
     # database config
-    DB_NAME = os.environ.get("DB_NAME","boyrokey00")     
+    DB_NAME = os.environ.get("DB_NAME","boyrokey00")   
+    STRING_SESSION  = os.environ.get("STRING_SESSION", None)
     DB_URL  = os.environ.get("DB_URL","mongodb+srv://boyrokey00:rajan123@cluster0.4fhuu.mongodb.net/")
  
     # other configs
